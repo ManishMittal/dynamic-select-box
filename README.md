@@ -1,5 +1,5 @@
-#Ionic Select Box
-Select Box with multiple or single select functionality for Ionic Framework.
+#Dynamic Select Box
+Select Box with multiple or single select functionality for Dynamic Framework.
 
 ## Features
 * Open Select Box in modal.
@@ -7,27 +7,27 @@ Select Box with multiple or single select functionality for Ionic Framework.
 * Manage the click events item click.
 
 ## Scrrens
-<img src='/screens/ionic-select-box.gif' width=285px>
+<img src='/screens/dynamic-select-box.gif' width=285px>
 
 
 ## Usage
 
-[Download](http://www.opensourcetechnologies.com/product/ionic-select-box) the files .
+[Download](http://www.opensourcetechnologies.com/product/dynamic-select-box) the files .
 
 
-1.  Include `ionic-select-box.css` in your index.html:
-	`<link href="where-you-put-folder/ionic-select-box/dist/ionic-select-box.css" rel="stylesheet">`
+1.  Include `dynamic-select-box.css` in your index.html:
+	`<link href="where-you-put-folder/dynamic-select-box/dist/dynamic-select-box.css" rel="stylesheet">`
 
-2.	Include `ionic-select-box.js` in your index.html:
-	`<script type="text/javascript" src="where-you-put-folder/ionic-select-box/dist/ionic-select-box.js"></script>`
+2.	Include `dynamic-select-box.js` in your index.html:
+	`<script type="text/javascript" src="where-you-put-folder/dynamic-select-box/dist/dynamic-select-box.js"></script>`
 
-3.	Add the module `ionic-select-box` to your application dependencies in your `app.js`:
-	`angular.module('starter', ['ionic', 'ionic-select-box'])`
+3.	Add the module `dynamic-select-box` to your application dependencies in your `app.js`:
+	`angular.module('starter', ['dynamic', 'dynamic-select-box'])`
 	
 4.	Configure module:
 	`App.config(function(selectboxProvider) {
-        selectboxProvider.setTemplateUrl('where-you-put-folder/ionic-select-box/dist/templates/item-template.html');
-        selectboxProvider.setModalTemplateUrl('where-you-put-folder/ionic-select-box/dist/templates/modal-template.html');
+        selectboxProvider.setTemplateUrl('where-you-put-folder/dynamic-select-box/dist/templates/item-template.html');
+        selectboxProvider.setModalTemplateUrl('where-you-put-folder/dynamic-select-box/dist/templates/modal-template.html');
     });`
 
 And you're ready to go.
@@ -42,12 +42,13 @@ And you're ready to go.
       text-property="value"
       value-property="id"          
       text="Text default Select Box"
-      modal-template-url="where-you-put-folder/ionic-select-box/dist/templates/input-template.html"
-      template-url="bower_components/ionic-multiselect/templates/dist/output-template.html"
+      modal-template-url="where-you-put-folder/dynamic-select-box/dist/templates/input-template.html"
+      template-url="bower_components/dynamic-multiselect/templates/dist/output-template.html"
       note-text="Note Text"
       value-changed="onValueChanged(value)">
     </select-box>
 `
+</br>
 **Example of template object and event handler of Select Box in controller :**
 ```javascript
 $scope.data = [
@@ -117,4 +118,4 @@ $scope.onValueChanged = function(value){
 	Parameters: value - The currently selected value or list of values
 	Raised when the current value changes.
 
-Feel Free To Contact Us at [sales@opensourcetechnologies.com](mailto:sales@opensourcetechnologies.com?Subject=Ionic%20Select%20Box%20plugin)
+Feel Free To Contact Us at [sales@opensourcetechnologies.com](mailto:sales@opensourcetechnologies.com?Subject=Dynamic%20Select%20Box%20plugin)
