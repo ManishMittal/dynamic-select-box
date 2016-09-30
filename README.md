@@ -1,5 +1,5 @@
 #Dynamic Select Box
-Select Box with multiple or single select functionality for Dynamic Framework.
+Select Box with multiple or single select functionality for Ionic Framework.
 
 ## Features
 * Open Select Box in modal.
