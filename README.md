@@ -22,7 +22,7 @@ Select Box with multiple or single select functionality for Ionic Framework.
 	`<script type="text/javascript" src="where-you-put-folder/dynamic-select-box/dist/dynamic-select-box.js"></script>`
 
 3.	Add the module `dynamic-select-box` to your application dependencies in your `app.js`:
-	`angular.module('starter', ['dynamic', 'dynamic-select-box'])`
+	`angular.module('starter', ['ionic', 'dynamic-select-box'])`
 	
 4.	Configure module:
 	`App.config(function(selectboxProvider) {
