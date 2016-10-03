@@ -26,8 +26,8 @@ Select Box with multiple or single select functionality for Ionic Framework.
 	
 4.	Configure module:
 	`App.config(function(selectboxProvider) {
-        selectboxProvider.setTemplateUrl('where-you-put-folder/dynamic-select-box/dist/templates/item-template.html');
-        selectboxProvider.setModalTemplateUrl('where-you-put-folder/dynamic-select-box/dist/templates/modal-template.html');
+        selectboxProvider.setTemplateUrl('where-you-put-folder/dynamic-select-box/dist/templates/output-template.html');
+        selectboxProvider.setModalTemplateUrl('where-you-put-folder/dynamic-select-box/dist/templates/input-template.html');
     });`
 
 And you're ready to go.
